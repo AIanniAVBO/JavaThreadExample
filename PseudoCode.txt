@@ -1,0 +1,18 @@
+
+p1 = fork(op2)
+p2 = fork(op3)
+
+z = 2*a+4
+join p1
+z = z * x
+z = z * 5
+join p2
+z = z - y
+
+FINE
+
+op2:
+	x = 7*b + 3
+	
+op3:
+	y = 10*c
