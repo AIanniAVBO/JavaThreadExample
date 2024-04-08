@@ -79,7 +79,7 @@ public class Main {
 			//	prendendo il risultato da op3
 			z = z - op3.getY();
 			//Stampa il risultato ottenuto
-			System.out.println("Il risultato finale è: "
+			System.out.println("Il risultato finale è: " + z);
 		} catch (InterruptedException e) {
 			//Nel caso ci siano dei problemi nel join
 			//	stampa il relativo errore
